@@ -1,0 +1,4 @@
+10:00:00	  :  :  	once	   	#022#02.03.04.04.04#                                         00NNNNNNNNNNNNNN	                                   	0000	4710	S000S                              
+10:05:00	  :  :  	once	   	#022#02.03.04.04.04#                                         00NNNNNNNNNNNNNN	                                   	0000	2148	S000S                              
+11:00:00	  :  :  	once	   	#02*#10.05#                                                  00NNNNNNNNNNNNNN	                                   	0000	7790	S000S                              
+11:30:00	  :  :  	once	   	#02*#10.06#                                                  00NNNNNNNNNNNNNN	                                   	0000	0788	S000S                              

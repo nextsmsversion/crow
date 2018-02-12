@@ -1,0 +1,574 @@
+01	Select
+02	Service
+04	Emer
+05	Last
+06	Auto
+07	Courtesy
+09	Crowd
+10	Instant
+#01     01C	.
+#01     01E	one
+#01     02C	.
+#01     02E	two
+#01     03C	.
+#01     03E	three
+#01     04C	.
+#01     04E	four
+#02     01C	.
+#02     01E	one
+#02     02C	.
+#02     02E	two
+#02     03C	.
+#02     03E	three
+#02     04C	.
+#02     04E	four
+#02     05C	.
+#02     05E	five
+#02     06C	.
+#02     06E	six
+#02     07C	.
+#02     07E	seven
+#02     08C	.
+#02     08E	eight
+#02     09C	.
+#02     09E	nine
+#02     10C	.
+#02     10E	ten
+#02     15C	.
+#02     15E	fifteen
+#02     20C	.
+#02     20E	twenty
+#02     30C	.
+#02     30E	thirty
+#03     01C	.
+#03     01E	this
+#03     02C	.
+#03     02E	Tsuen Wan
+#03     03C	.
+#03     03E	Tai Wo Hau
+#03     04C	.
+#03     04E	Kwai Hing
+#03     05C	.
+#03     05E	Kwai Fong
+#03     06C	.
+#03     06E	Lai King
+#03     07C	.
+#03     07E	Mei Foo
+#03     08C	.
+#03     08E	Lai Chi Kok
+#03     09C	.
+#03     09E	Cheung Sha Wan
+#03     10C	.
+#03     10E	Sham Shui Po
+#03     11C	.
+#03     11E	Prince Edward
+#03     12C	.
+#03     12E	Mong Kok
+#03     13C	.
+#03     13E	Yau Ma Tei
+#03     14C	.
+#03     14E	Jordan
+#03     15C	.
+#03     15E	Tsim Sha Tsui
+#03     16C	.
+#03     16E	Lam Tin
+#03     17C	.
+#03     17E	Kwun Tong
+#03     18C	.
+#03     18E	Ngau Tau Kok
+#03     19C	.
+#03     19E	Kowloon Bay
+#03     20C	.
+#03     20E	Choi Hung
+#03     21C	.
+#03     21E	Diamond Hill
+#03     22C	.
+#03     22E	Wong Tai Sin
+#03     23C	.
+#03     23E	Lok Fu
+#03     24C	.
+#03     24E	Kowloon Tong
+#03     25C	.
+#03     25E	Shek Kip Mei
+#03     26C	.
+#03     26E	Chai Wan
+#03     27C	.
+#03     27E	Heng Fa Chuen
+#03     28C	.
+#03     28E	Shau Kei Wan
+#03     29C	.
+#03     29E	Sai Wan Ho
+#03     30C	.
+#03     30E	Tai Koo
+#03     31C	.
+#03     31E	Quarry Bay
+#03     32C	.
+#03     32E	North Point
+#03     33C	.
+#03     33E	Fortress Hill
+#03     34C	.
+#03     34E	Tin Hau
+#03     35C	.
+#03     35E	Causeway Bay
+#03     36C	.
+#03     36E	Wan Chai
+#03     37C	.
+#03     37E	Admiralty
+#03     38C	.
+#03     38E	Central
+#03     39C	.
+#03     39E	Sheung Wan
+#03     40C	.
+#03     40E	Island
+#03     41C	.
+#03     41E	Hong Kong
+#03     42C	.
+#03     42E	Kowloon
+#03     43C	.
+#03     43E	Olympic
+#03     44C	.
+#03     44E	Tsing Yi
+#03     45C	.
+#03     45E	Tung Chung
+#03     46C	.
+#03     46E	Airport Express
+#03     47C	.
+#03     47E	Airport
+#04     01C	.
+#04     01E	a technical fault on a train
+#04     02C	.
+#04     02E	a signalling fault
+#04     03C	.
+#04     03E	a problem with the track
+#04     04C	.
+#04     04E	a problem with the power supply
+#04     05C	.
+#04     05E	someone on the track
+#04     06C	.
+#04     06E	a fire in the station
+#04     07C	.
+#04     07E	a fire in the tunnel
+#04     08C	.
+#04     08E	police action
+#04     09C	.
+#04     09E	a derailment
+#04     10C	.
+#04     10E	a train collision
+#04     11C	.
+#04     11E	Platform Screen Door failure
+#04     12C	.
+#04     12E	a problem with the building structure
+#04     13C	.
+#04     13E	flooding
+#04     14C	.
+#04     14E	overcrowding in the station
+#04     15C	.
+#04     15E	a serious incident
+#05     01C	.
+#05     01E	to the front of
+#05     02C	.
+#05     02E	to the middle of
+#05     03C	.
+#05     03E	to the rear of
+#06     01C	.
+#06     01E	one minute
+#06     02C	.
+#06     02E	two minutes
+#06     03C	.
+#06     03E	three minutes
+#06     04C	.
+#06     04E	four minutes
+#06     05C	.
+#06     05E	five minutes
+#06     06C	.
+#06     06E	six minutes
+#06     07C	.
+#06     07E	seven minutes
+#06     08C	.
+#06     08E	eight minutes
+#06     09C	.
+#06     09E	nine minutes
+#06     10C	.
+#06     10E	ten minutes
+#06     15C	.
+#06     15E	fifteen minutes
+#06     20C	.
+#06     20E	twenty minutes
+#06     30C	.
+#06     30E	thirty minutes
+#06     31C	.
+#06     31E	one hour
+#06     32C	.
+#06     32E	two hours
+#06     33C	.
+#06     33E	three hours
+#06     34C	.
+#06     34E	four hours
+#06     35C	.
+#06     35E	five hours
+#06     36C	.
+#06     36E	six hours
+#06     37C	.
+#06     37E	seven hours
+#06     38C	.
+#06     38E	eight hours
+#06     39C	.
+#06     39E	nine hours
+#06     40C	.
+#06     40E	ten hours
+#08     01C	.
+#08     01E	overcrowding
+#08     02C	.
+#08     02E	an incident
+#09     01C	.
+#09     01E	some
+#09     02C	.
+#09     02E	all
+#10     01C	.
+#10     01E	A
+#10     02C	.
+#10     02E	B
+#10     03C	.
+#10     03E	C
+#10     04C	.
+#10     04E	D
+#10     05C	.
+#10     05E	E
+#10     06C	.
+#10     06E	F
+#10     07C	.
+#10     07E	G
+#10     08C	.
+#10     08E	H
+#10     09C	.
+#10     09E	I
+#10     10C	.
+#10     10E	J
+#10     11C	.
+#10     11E	K
+#10     12C	.
+#10     12E	L
+#10     13C	.
+#10     13E	M
+#11     01C	.
+#11     01E	which will arrive
+#11     02C	.
+#11     02E	which will depart
+#13     01C	.
+#13     01E	Island
+#13     02C	.
+#13     02E	Tung Chung
+#13     03C	.
+#13     03E	Kwun Tong
+#13     04C	.
+#13     04E	Tsuen Wan
+#13     05C	.
+#13     05E	Airport Express
+#14     01C	.
+#14     01E	in the concourse
+#14     02C	.
+#14     02E	on the platform
+Auto    01.1C #05	.
+Auto    01.1E #05	Move along the plat. for easy boarding: Please move along the platform
+Auto    01.2C	.
+Auto    01.2E	the train for easier boarding. Thank you.
+Auto    02C	.
+Auto    02E	Let passengers exit first: The train is arriving. Please let passengers exit first. Thank you.
+Auto    03C	.
+Auto    03E	Mind the platform gap: Please mind the gap between the train and the platform.
+Auto    04C	.
+Auto    04E	Stand back of doors: Please stand back from the doors.
+Courtesy01C	.
+Courtesy01E	No drinking and eating: Eating and drinking is not allowed in trains and stations. Help us keep the MTR clean.
+Courtesy02C	.
+Courtesy02E	No smoking: Smoking is not allowed in trains and stations. 
+Courtesy03C	.
+Courtesy03E	Hold the handrail of escalator and stand on the right: Hold the handrail of escalator and stand on the right. Take care of elderly and children.
+Courtesy04C	.
+Courtesy04E	Don't convey goods by escalator: Escalators may not be used to convey goods.
+Courtesy05C	.
+Courtesy05E	Take care of your belongings: Please take care of personal belongings.
+Crowd   01C	.
+Crowd   01E	Buy a second ticket: To save time please buy a second ticket for your return journey.
+Crowd   02.1C #14	.
+Crowd   02.1E #14	No blocking in concourse or on platform: Your attention please, Please do not wait 
+Crowd   02.2C	.
+Crowd   02.2E	Thank you.
+Crowd   03C	.
+Crowd   03E	No waiting, Crowd managment in operation: Do not wait in conc...Crowd Management Plans are now in operation...leave stn.
+Crowd   04.1C #04	.
+Crowd   04.1E #04	Switching off some entry gates because of incident locally: Some ticket machines and entry gates are temporarily shut down because of
+Crowd   04.2C	.
+Crowd   04.2E	They will soon be in service again. Please accept our apologies.
+Crowd   05.1C #04	.
+Crowd   05.1E #04	Switching off all entry gates because of incident locally: The ticket machines and entry gates are temporarily shut down because of
+Crowd   05.2C	.
+Crowd   05.2E	They will soon be in service again. Please accept our apologies.
+Crowd   06C	.
+Crowd   06E	Switching off some entry gates because of overcrowding locally: Some ticket machines and entry gates ... because of overcrowding in the station. ...
+Crowd   07C	.
+Crowd   07E	Switching off all entry gates because of overcrowding locally: The ticket machines and entry gates ... because of overcrowding in the station. ...
+Crowd   08.1C #06	.
+Crowd   08.1E #06	Integrated Crowd Management (Plan A): Some entry gates ... They will be in service again in about
+Crowd   08.2C	.
+Crowd   08.2E	We apologise for any inconvenience that this may cause.
+Crowd   09C	.
+Crowd   09E	Integrated Crowd Management (Plan B) - Some gates closed.: Some entry gates are temporarily shut down because of overcrowding...
+Crowd   10C	.
+Crowd   10E	Integrated Crowd Management (Plan B) - All gates closed.: The entry gates are temporarily shut down because of overcrowding...
+Crowd   11.1C #13	>3
+Crowd   11.1E #04	Int. Plan B, level 1-3 with some gates closed for incident at a stn, expect resume at...: Crowd Management Plans are now in place because of
+Crowd   11.2C #03	.
+Crowd   11.2E #03	at
+Crowd   11.3C #04	>1
+Crowd   11.3E #13	on
+Crowd   11.4C #06	.
+Crowd   11.4E #06	Line. Some entry gates ... They will be in service again in about
+Crowd   11.5C	.
+Crowd   11.5E	. We apologise for any inconvenience or delay that this may cause.
+Crowd   12.1C #13	>3
+Crowd   12.1E #04	Int. Plan B, level 1-3 with all gates closed for incident at a stn, expect resume at...: Crowd Management Plans are now in place because of
+Crowd   12.2C #03	.
+Crowd   12.2E #03	at
+Crowd   12.3C #04	>1
+Crowd   12.3E #13	on
+Crowd   12.4C #06	.
+Crowd   12.4E #06	Line. The entry gates ... They will be in service again in about
+Crowd   12.5C	.
+Crowd   12.5E	. We apologise for any inconvenience or delay that this may cause.
+Crowd   13.1C #13	>3
+Crowd   13.1E #04	Int. Plan B, level 1-3 with some gates closed for incident at a stn, pls use other transport: Crowd Management Plans are now in place because of
+Crowd   13.2C #03	.
+Crowd   13.2E #03	at
+Crowd   13.3C #04	>1
+Crowd   13.3E #13	on
+Crowd   13.4C	.
+Crowd   13.4E	Line. Some entry gates ... We advise you to use other transport. We apologise...
+Crowd   14.1C #13	>3
+Crowd   14.1E #04	Int. Plan B, level 1-3 with all gates closed for incident at a stn, pls use other transport: Crowd Management Plans are now in place because of
+Crowd   14.2C #03	.
+Crowd   14.2E #03	at
+Crowd   14.3C #04	>1
+Crowd   14.3E #13	on
+Crowd   14.4C	.
+Crowd   14.4E	Line. The entry gates ... We advise you to use other transport. We apologise...
+Crowd   15.1C #13	>4
+Crowd   15.1E #04	Int. Plan B, level 1-3 with some gates closed for incident at some stns, expect resume at: Crowd Management Plans are now in place because of
+Crowd   15.2C #03	.
+Crowd   15.2E #03	between
+Crowd   15.3C #03	.
+Crowd   15.3E #03	and
+Crowd   15.4C #04	>1
+Crowd   15.4E #13	on
+Crowd   15.5C #06	.
+Crowd   15.5E #06	Line. Some entry gates ... They will be in service again in about
+Crowd   15.6C	.
+Crowd   15.6E	. We apologise for any inconvenience or delay that this may cause.
+Crowd   16.1C #13	>4
+Crowd   16.1E #04	Int. Plan B, level 1-3 with all gates closed for incident at some stn, expect resume at: Crowd Management Plans are now in place because of
+Crowd   16.2C #03	.
+Crowd   16.2E #03	between
+Crowd   16.3C #03	.
+Crowd   16.3E #03	and
+Crowd   16.4C #04	>1
+Crowd   16.4E #13	on
+Crowd   16.5C #06	.
+Crowd   16.5E #06	Line. The entry gates ... They will be in service again in about
+Crowd   16.6C	.
+Crowd   16.6E	. We apologise for any inconvenience or delay that this may cause.
+Crowd   17.1C #13	>4
+Crowd   17.1E #04	Int. Crowd Management Plan B, level 1-3, with some entry gates closed for incident at some stns, pls use other transport: Crowd Management Plans are now in place because of
+Crowd   17.2C #03	.
+Crowd   17.2E #03	between
+Crowd   17.3C #03	.
+Crowd   17.3E #03	and
+Crowd   17.4C #04	>1
+Crowd   17.4E #13	on
+Crowd   17.5C	.
+Crowd   17.5E	Line. Some entry gates ... We advise you to use other transport. We apologise...
+Crowd   18.1C #13	>4
+Crowd   18.1E #04	Int. Crowd Management Plan B, level 1-3, incident at some stations with all entry gates closed, pls use other transport: Crowd Management Plans are now in place because of
+Crowd   18.2C #03	.
+Crowd   18.2E #03	between
+Crowd   18.3C #03	.
+Crowd   18.3E #03	and
+Crowd   18.4C #04	>1
+Crowd   18.4E #13	on
+Crowd   18.5C	.
+Crowd   18.5E	Line. The entry gates ... We advise you to use other transport. We apologise...
+Emer    01.1C #04	.
+Emer    01.1E #04	Close station in Emergency with a known cause: Your attention please, This station will close because of
+Emer    01.2C	.
+Emer    01.2E	Please leave immediately. Thank you.
+Emer    02.1C #03	.
+Emer    02.1E #03	Emergency Bus Service: Your attention please, The MTR free shuttle bus from
+Emer    02.2C #03	.
+Emer    02.2E #03	to
+Emer    02.3C	.
+Emer    02.3E	is now available. Please follow directions to the bus stop.
+Emer    03C	.
+Emer    03E	Evacuation (EVA Button): This station will close because of a serious incident. Please leave immediately.
+Emer    04.1C #10	.
+Emer    04.1E #10	Station close because of fire. Leave the station from 2 exits: This station will close because of fire. Leave the station from Exit	
+Emer    04.2C #10	.
+Emer    04.2E #10	and Exit
+Emer    04.3C	.
+Emer    04.3E	immediately.
+Emer    05.1C #10	.
+Emer    05.1E #10	Station close because of fire. Leave the station from 3 exits: This station will close because of fire. Leave the station from Exit	
+Emer    05.2C #10	.
+Emer    05.2E #10	Exit
+Emer    05.3C #10	.
+Emer    05.3E #10	and Exit
+Emer    05.4C	.
+Emer    05.4E	immediately.
+Emer    06.1C #10	.
+Emer    06.1E #10	Station close because of fire at one exit. Leave the station from other exits: This station will close because of a fire at Exit
+Emer    06.2C	.
+Emer    06.2E	Please leave the station by other exits immediately.
+Last    01.1C #01	.
+Last    01.1E #01	Last train at platform, board immediately: Your attention please, The train at platform
+Last    01.2C #03	.
+Last    01.2E #03	is the last train for
+Last    01.3C	.
+Last    01.3E	.Please board immediately.
+Last    02.1C #03	.
+Last    02.1E #03	Last train departed, service maintains for...: Your attention please, The last train for
+Last    02.2C #03	.
+Last    02.2E #03	has departed. Train service for
+Last    02.3C #01	. 
+Last    02.3E #01	is still running. Please go to platform 
+Last    02.4C	.
+Last    02.4E	.
+Last    03.1C #03	.
+Last    03.1E #03	Last train at platform will depart at...: Your attention please, The last train for
+Last    03.2C #06	.
+Last    03.2E #06	will depart in
+Last    03.3C #01	. 
+Last    03.3E #01	from platform
+Last    03.4C	.
+Last    03.4E	Please board immediately.
+Last    04.1C #01	.
+Last    04.1E #01	Last train to connect other line will soon depart: The train at platform
+Last    04.2C #03	>4
+Last    04.2E #13	is the last train connecting with the
+Last    04.3C #13	>2
+Last    04.3E #03	Line towards
+Last    04.4C #03	>3
+Last    04.4E #03	through
+Last    04.5C	.
+Last    04.5E	Please board immediately.
+Last    05C	.
+Last    05E	Train service today ended: Train service for today has ended. Please leave the station. Thank you.
+Select  01C	.
+Select  01E	Please wait behind the yellow line.
+Select  02C	.
+Select  02E	Let passengers alight first: Please stand in line and let passengers exit from the train. Thank you.
+Select  03C	.
+Select  03E	Stand back from moving train: Please stand back from the moving train.
+Select  04C	.
+Select  04E	Stand back from door area: Please stand back from the door area. Thank you.
+Select  05C	.
+Select  05E	Special train: This train will not carry passengers. Please wait for the next train.
+Select  06.1C #06	>2 
+Select  06.1E #11	Please wait for the next train: This train is very crowded. Please wait for the next train, which will 
+Select  06.2C #11	>1 
+Select  06.2E #06	in
+Select  06.3C	. 
+Select  06.3E	.
+Select  07C	.
+Select  07E	A train is still in next platform: There will be a short delay because the train is still in the next platform.
+Select  08.1C #03	.
+Select  08.1E #03	Train will terminate at...: The train will now stop at
+Select  08.2C #03	.
+Select  08.2E #03	Passengers for stations from 
+Select  08.3C #03	.
+Select  08.3E #03	to
+Select  08.4C	.
+Select  08.4E	please wait for the next train.
+Select  09C	.
+Select  09E	Train will move forward again: This train will move again before the doors open. Please wait behind the yellow line.
+Select  10C	.
+Select  10E	Train will move backward again: This train will move backwards before the doors open. Please wait behind the yellow line.
+Select  11.1C #01	.
+Select  11.1E #01	Train with brake hang-on is approaching: The fumes and smoke are caused by the brakes on the train arriving at platform
+Select  11.2C	.
+Select  11.2E	Ventilation fans are in operation. We apologise...
+Select  12.1C #01	.
+Select  12.1E #01	Train with brake hang-on has passed: The fumes and smoke are caused by the brakes on the train departing from platform
+Select  12.2C	.
+Select  12.2E	Ventilation fans are in operation. We apologise...
+Service 01C	.
+Service 01E	Station detrainment: This train is being taken out of service. Please wait for the next train.
+Service 02.1C #01	>3
+Service 02.1E #06	Train service suspended for incident at platform: Your attention please, Train service will be suspended for about
+Service 02.2C #04	.
+Service 02.2E #04	because of
+Service 02.3C #06	>1
+Service 02.3E #01	at platform
+Service 02.4C	.
+Service 02.4E	Please accept our apologies.
+Service 03.1C #13	.
+Service 03.1E #13	INC mode for service suspension -  incident at a station: Your attention please, Train service on the
+Service 03.2C #03	>3
+Service 03.2E #04	Line is disrupted by
+Service 03.3C #04	>2
+Service 03.3E #03	at
+Service 03.4C	.
+Service 03.4E	You are advised to use other transport. Fares will not be deducted from your ticket.
+Service 04.1C #13	.
+Service 04.1E #13	INC mode for service suspension -  incident at some stations: Your attention please, Train service on the
+Service 04.2C #03	>3
+Service 04.2E #04	Line is disrupted by
+Service 04.3C #03	>4
+Service 04.3E #03	between
+Service 04.4C #04	>2
+Service 04.4E #03	and
+Service 04.5C	.
+Service 04.5E	You are advised to use other transport. Fares will not be deducted from your ticket.
+Service 05.1C #03	>4
+Service 05.1E #03	Reduced service due to incident at a station: Your attention please, Train service to
+Service 05.2C #04	>3
+Service 05.2E #06	is now running at
+Service 05.3C #03	>1
+Service 05.3E #04	intervals beause of
+Service 05.4C #06	>2
+Service 05.4E #03	at
+Service 05.5C	.
+Service 05.5E	We apologise for any inconvenience or delay that this may cause.
+Service 06.1C #03	>4
+Service 06.1E #03	Reduced service due to incident at some stations: Your attention please, Train service to
+Service 06.2C #03	>5
+Service 06.2E #06	is now running at
+Service 06.3C #04	.
+Service 06.3E #04	intervals beause of
+Service 06.4C #03	>1
+Service 06.4E #03	between
+Service 06.5C #06	>2
+Service 06.5E #03	and
+Service 06.6C	.
+Service 06.6E	We apologise for any inconvenience or delay that this may cause.
+Service 07.1C #03	>3
+Service 07.1E #13	Sector suspension due to incident at a station: Your attention please, Train service is suspended on the 
+Service 07.2C #04	.
+Service 07.2E #04	Line because of
+Service 07.3C #13	>1
+Service 07.3E #03	at
+Service 07.4C	.
+Service 07.4E	Please use other transport. We apologise for any inconvenience that this may cause.
+Service 08.1C #03	>3
+Service 08.1E #13	Sector suspension due to incident at some stations: Your attention please, Train service is suspended on the 
+Service 08.2C #03	>4
+Service 08.2E #04	Line because of
+Service 08.3C #04	>2
+Service 08.3E #03	between
+Service 08.4C #13	>1
+Service 08.4E #03	and
+Service 08.5C	.
+Service 08.5E	Please use other transport. We apologise for any inconvenience that this may cause.
+Service 09.1C #13	.
+Service 09.1E #13	Service resumed: Your attention please, Train service on the 
+Service 09.2C	.
+Service 09.2E	Line has returned to normal.
+
+
