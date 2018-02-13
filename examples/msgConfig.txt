@@ -570,5 +570,3 @@ Service 09.1C #13	.
 Service 09.1E #13	Service resumed: Your attention please, Train service on the 
 Service 09.2C	.
 Service 09.2E	Line has returned to normal.
-
-
