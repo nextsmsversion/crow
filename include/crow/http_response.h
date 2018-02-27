@@ -90,6 +90,9 @@ namespace crow
         {
             code = 301;
             set_header("Location", location);
+            set_header("Access-Control-Allow-Origin", "*");//by sam 20180223
+            set_header("Access-Control-Allow-Methods", "PUT, GET, OPTIONS, HEAD");//by sam 20180223
+            set_header("Access-Control-Allow-Headers", "Content-Type, X-Requested-With, x-request-metadata");//by sam 20180223
         }
 
         void write(const std::string& body_part)
@@ -130,6 +133,9 @@ namespace crow
             void json_mode()
             {
                 set_header("Content-Type", "application/json");
+                set_header("Access-Control-Allow-Origin", "*");//by sam 20180223
+                set_header("Access-Control-Allow-Methods", "PUT, GET, OPTIONS, HEAD");//by sam 20180223
+                set_header("Access-Control-Allow-Headers", "Content-Type, X-Requested-With, x-request-metadata");
             }
     };
 }

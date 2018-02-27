@@ -321,6 +321,9 @@ namespace crow
                     handler_->handle(req, res);
                     if (add_keep_alive_)
                         res.set_header("connection", "Keep-Alive");
+                        res.set_header("Access-Control-Allow-Origin", "*");//by sam 20180223
+                        res.set_header("Access-Control-Allow-Methods", "PUT, GET, OPTIONS, HEAD");//by sam 20180223
+                        res.set_header("Access-Control-Allow-Headers", "Content-Type, X-Requested-With, x-request-metadata");//by sam 20180223
                 }
                 else
                 {

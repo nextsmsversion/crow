@@ -7,10 +7,10 @@ int main()
 
     CROW_ROUTE(app, "/")
     ([]() {
-        return "Hello world!";
+        return "{\"firstName\": \"John\",\"lastName\": \"Smith\",\"age\": 25}";
     });
 
-    app.port(18080).ssl_file("test.crt", "test.key").run();
+    app.port(8080).ssl_file("host.crt", "host.key").run();
 
     // Use .pem file
     //app.port(18080).ssl_file("test.pem").run();

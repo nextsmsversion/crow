@@ -108,7 +108,7 @@ string ReadMsgConfig(const string& msg)
 		}
     }
     //TODO add more here?? jsonMsgType["last"] = "DONE";
-    return "SMS Container App Analysed line : " + crow::json::dump(jsonMsgType);
+    return crow::json::dump(jsonMsgType);
 }
 
 int main()
@@ -119,6 +119,13 @@ int main()
     ([]() {
         
         return ReadMsgConfig("/home/ubuntu/workspace/examples/msgConfig.txt");
+    });
+    
+    CROW_ROUTE(app, "/msgs")
+    ([](const crow::request& /*req*/, crow::response& res){
+    		ReadMsgConfig("/home/ubuntu/workspace/examples/msgConfig.txt");
+            res.write(crow::json::dump(jsonMsgType));
+            res.end();
     });
     
     app.port(8080).run();
