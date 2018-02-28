@@ -55,8 +55,10 @@ bool AnalyseMsgTypeLine( string line )
     
 	// replace: Create and send command (to be replaced by RESTful API)
 	// replace: SendCommand( PA_CMD_MSG_TYPE_CREATION, type.data(), msgTypeId ) ;
-    jsonMsgType["msgType"][to_string(msgTypeId)] = type;
-
+	/** originally by sam 20180228 **/
+    jsonMsgType["msgType"][to_string(msgTypeId)] = type;	
+    //jsonMsgType[to_string(msgTypeId)] = type;
+    
 	CROW_LOG_INFO << "Create message type <" <<  type  << ">"; // TODO : <id>%d" msgTypeId 
 
 	return true ;
@@ -120,6 +122,11 @@ int main()
         
         return ReadMsgConfig("/home/ubuntu/workspace/examples/msgConfig.txt");
     });
+    
+    //TODO by sam retrieve from PA server text file
+    jsonMsgType["messages"][to_string(1)] = "Last Train to";
+    jsonMsgType["messages"][to_string(2)] = "Last Train has ended";
+    jsonMsgType["messages"][to_string(3)] = "Last train at platform will depart at";
     
     CROW_ROUTE(app, "/msgs")
     ([](const crow::request& /*req*/, crow::response& res){
