@@ -133,7 +133,28 @@ int main()
     		ReadMsgConfig("/home/ubuntu/workspace/examples/msgConfig.txt");
             res.write(crow::json::dump(jsonMsgType));
             res.end();
+            
+    		CROW_LOG_INFO << "/msgs request called";//tmp log by sam only 
     });
+    
+    CROW_ROUTE(app, "/nightmode")
+    ([](const crow::request& /*req*/, crow::response& res){
+            res.write("nightmode control received");
+            res.end();
+            
+    		CROW_LOG_INFO << "/nightmode request called";//tmp log by sam only 
+    });
+    
+    CROW_ROUTE(app, "/add_json").methods("POST"_method)
+	([](const crow::request& req){
+	    auto x = crow::json::load(req.body);
+	    if (!x)
+	        return crow::response(400);
+	    int sum = x["a"].i()+x["b"].i();
+	    std::ostringstream os;
+	    os << sum;
+	    return crow::response{os.str()};
+	});
     
     app.port(8080).run();
 }

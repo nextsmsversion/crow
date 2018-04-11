@@ -38,14 +38,16 @@ namespace crow
         }
 
 
-        response() {}
-        explicit response(int code) : code(code) {}
-        response(std::string body) : body(std::move(body)) {}
+        response() {                                            set_header("Access-Control-Allow-Origin", "*");}    //by sam 20180411   
+        explicit response(int code) : code(code) {              set_header("Access-Control-Allow-Origin", "*");}    //by sam 20180411
+        response(std::string body) : body(std::move(body)) {    set_header("Access-Control-Allow-Origin", "*");}    //by sam 20180411
         response(json::wvalue&& json_value) : json_value(std::move(json_value))
         {
             json_mode();
         }
-        response(int code, std::string body) : code(code), body(std::move(body)) {}
+        response(int code, std::string body) : code(code), body(std::move(body)) {
+                                                                set_header("Access-Control-Allow-Origin", "*");     //by sam 20180411
+        }
         response(const json::wvalue& json_value) : body(json::dump(json_value))
         {
             json_mode();
@@ -58,6 +60,7 @@ namespace crow
         response(response&& r)
         {
             *this = std::move(r);
+                                                                set_header("Access-Control-Allow-Origin", "*");     //by sam 20180411
         }
 
         response& operator = (const response& r) = delete;
